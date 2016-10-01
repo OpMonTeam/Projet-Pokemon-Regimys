@@ -19,7 +19,7 @@ public class Surf extends Attaque {
 
 	@Override
 	protected void effetApres(Pokemon atk, Pokemon def) throws SameAtkPartTwo {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method s
 
 	}
 }
