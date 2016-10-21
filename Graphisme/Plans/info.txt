@@ -1,5 +1,5 @@
 Ce dossier présente les plans des villes qui seront présentes dans le fan-game pokemon(r) Regimys.
 Ces plans ne serviront pas au jeu final, puisque les villes seront crées directement dans le programme a partir d'elements.
 Ces plans de reflètent absolument pas les plans finaux du jeu. Ce sont des plans provisoires succeptibles d'être modifiés.
-Dans ces plans, il n'y aura pas d'evenements (PNJ, pokemon ect...).
+Dans ces plans, il n'y aura pas d'evenements (PNJ, pokemon ect...) ni de décorations (Arbres, fleurs, panneaux ect...)
 Merci de votre comprehension, Jlppc.
