@@ -88,6 +88,8 @@ public class Initializer {
 		 listePoke[66] = new Espece(80, 50, 35, 35, 35, 70, "Machoc", Type.COMBAT, Type.AUCUN, Espece.EVOLUTION_BY_LEVEL, 28, listePoke[67], null, null, new Stats[]{Stats.ATK}, 0.8f, 19.5f, "Son corps est essentiellement composé de muscles. Même s'il a la taille d'un petit enfant, il peut soulever 100 adultes avec ses bras.", 75);
 		 listePoke[67] = new Espece(100, 70, 50, 60, 45, 80, "Machopeur", Type.COMBAT, Type.AUCUN, Espece.EVOLUTION_BY_TRADE, -1, listePoke[68], null, null, new Stats[]{Stats.ATK, Stats.ATK}, 1.5f, 70.5f, "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.", 146);
 		 listePoke[68] = new Espece(130, 80, 65, 85, 55, 90, "Mackogneur", Type.COMBAT, Type.AUCUN, Espece.NO_EVOLUTION, -1, null, null, null, new Stats[]{Stats.ATK, Stats.ATK, Stats.ATK}, 1.6f, 130f, "Ses deux paires de bras permettent à Mackogneur d'envoyer une série de 1000 coups de poing en 2s.", 193);
+		 listPoke[612] = new Espece (999, 999, 999, 999, 999, 999, "GrossBite", Type.BITE, Type.COMBAT, Espece.NO_EVOLUTION, -1, null, null, null, new Stat[]{Stats.ATK, Stats.ATK, Stats.ATK}, 1.6f, 130f, "Sa grosse queue terasse tout ses adversaires, meme sa pute de mère", 199)
+	
 	 }
 	 /**
 	  * Initialise les sprites
