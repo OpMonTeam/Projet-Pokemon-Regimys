@@ -1,0 +1,29 @@
+Comment jouer ?   --------VERSION 0.05.2--------------
+
+Sur Linux : Après avoir télécharger OpenJDK Runtime, cliquer sur ExecLinux.sh
+
+Sur Windows: Après avoir télécharger Java, cliquer sur Exec.bat
+
+Sur Mac (ou sur un autre système si la methode plus haut ne fonctionne pas) : ouvrer le terminal dans le dossier oû est stocker Regimys.jar et taper dans le terminal java -jar Regimys.jar
+
+
+Bon jeu !
+
+-------------------------------------------
+
+Si le jeu ne demarre pas, n'hesitez pas à nous contactez, nous repondrons à tout les messages le plus rapidement possible (pour cette version normalement nous repondrons dans les 24H)
+
+Le programmeur : jlppcprog@gmail.com
+
+Le graphiste : evandib@gmail.com
+
+-------------------------------------------
+
+Pokemon Regimys 
+version Alpha 0.05.2 
+
+Dévellopper par Jlppc et Navet56
+
+
+
+
