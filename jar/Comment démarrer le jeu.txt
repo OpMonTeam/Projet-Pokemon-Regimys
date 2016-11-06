@@ -1,10 +1,10 @@
 Comment jouer ?   --------VERSION 0.05.2--------------
 
-Sur Linux : Après avoir télécharger OpenJDK Runtime, cliquer sur ExecLinux.sh
+Sur Linux : Après vous être assuré d'avoir une machine vituelle java 1.8 sur votre ordinateur, cliquez sur ExecLinux.sh
 
-Sur Windows: Après avoir télécharger Java, cliquer sur Exec.bat
+Sur Windows: Après avoir installé Oracle Java 1.8, cliquer sur Exec.bat
 
-Sur Mac (ou sur un autre système si la methode plus haut ne fonctionne pas) : ouvrer le terminal dans le dossier oû est stocker Regimys.jar et taper dans le terminal java -jar Regimys.jar
+Sur Mac (ou sur un autre système si la methode plus haut ne fonctionne pas) : ouvrez le terminal dans le dossier oû est stocké Regimys.jar et tapez dans le terminal java -jar Regimys.jar
 
 
 Bon jeu !
