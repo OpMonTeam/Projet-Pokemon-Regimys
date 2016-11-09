@@ -1,4 +1,4 @@
-Comment jouer ?   --------VERSION 0.07--------------
+Comment jouer ?   --------VERSION 0.06--------------
 
 Sur Linux : Après vous être assuré d'avoir une machine vituelle java 1.8 sur votre ordinateur, cliquez sur ExecLinux.sh
 
@@ -20,9 +20,9 @@ Le graphiste : evandib@gmail.com
 -------------------------------------------
 
 Pokemon Regimys 
-version Alpha 0.07
+version Alpha 0.06
 
-Dévellopper par Jlppc et Navet56
+Developpé par Jlppc et Navet56
 Et la communauté Pokemon Regimys
 
 
