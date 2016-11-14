@@ -1,4 +1,4 @@
-Comment jouer ?   --------VERSION 0.06--------------
+Comment jouer ?   --------VERSION 0.07--------------
 
 Sur Linux : Après vous être assuré d'avoir une machine vituelle java 1.8 sur votre ordinateur, cliquez sur ExecLinux.sh
 
@@ -20,10 +20,27 @@ Le graphiste : evandib@gmail.com
 -------------------------------------------
 
 Pokemon Regimys 
-version Alpha 0.06
+version Alpha 0.07
 
 Developpé par Jlppc et Navet56
 Et la communauté Pokemon Regimys
+
+----------------------------------------------
+
+Questions et Aide
+
+*Quand j'execute ExecLinux.sh ou que je tape la commande, rien ne se passe, pourquoi ?
+
+Verifier bien que vous ouvrez un terminal DANS LE DOSSIER DU JEU, et qu'une machine virtuelle java est installé, si vous ne savez pas ce que c'est et que vous voulez juste jouer au jeu, taper d'abord avant de lancer le jeu : 
+
+sudo apt-get install openjdk-8-jre 
+
+puis ensuite      
+
+java -jar Regimys.jar
+
+*Une autre question ? Une aide ? n'hesitez pas à nous contactez (contacts plus ahut)
+
 
 
 
