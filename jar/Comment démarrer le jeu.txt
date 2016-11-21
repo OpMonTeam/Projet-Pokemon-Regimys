@@ -8,7 +8,10 @@ Sur Linux : Après vous être assuré d'avoir une machine vituelle java 1.8 sur 
 Sur Windows: Après avoir installé Oracle Java 1.8, cliquez sur Exec.bat
 
 
-Sur Mac (ou sur un autre système si la methode plus haut ne fonctionne pas) : ouvrez le terminal dans le dossier ou est stocké Regimys.jar et tapez dans le terminal java -jar Regimys.jar
+Sur Mac (ou sur un autre système si la methode plus haut ne fonctionne pas) : 
+ouvrez le terminal dans le dossier ou est stocké Regimys.jar et tapez dans le terminal, cette commande :
+
+java -jar Regimys.jar
 
 
 
@@ -20,9 +23,7 @@ Bon jeu !
 
 Si le jeu ne demarre pas, n'hesitez pas à nous contacter, nous répondrons à tous les messages le plus rapidement possible (nous essayerons de vous répondre dans les 24H)
 
-
 Le programmeur : jlppcprog@gmail.com
-
 
 Le graphiste : evandib@gmail.com
 
