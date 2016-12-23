@@ -1,2 +1,2 @@
-java -jar Regimys.jar
+java -jar Regimys.jar --guitest
 pause
