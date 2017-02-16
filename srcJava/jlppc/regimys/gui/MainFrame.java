@@ -34,28 +34,28 @@ public final class MainFrame extends JFrame {
 	protected DialogWindow dw;
 	public static Thread listeners = new Thread(new ListenersThread());
 	public static Thread player;
-	
+
 
 	public MainFrame() {
 		super();
 		getContentPane().setLayout(null);
-		
+
 		Log.writeT(Entry.INFO, "Creation de la fenetre principale");//C'est bien vous avez les logs pour commentaires ;-)
-		
+
 		JLabel fond = new JLabel("");
 		fond.setBounds(524, 0, 290, 633);
 		getContentPane().add(fond);
-		
+
 		gw = new GameWindow();
 		gw.setBounds(10, 10, 512, 512);
 		gw.setVisible(true);
 		getContentPane().add(gw);
-		
+
 		dw = new DialogWindow();
 		dw.setBounds(10, 532, 512, 200);
 		dw.setVisible(true);
 		getContentPane().add(dw);
-		
+
 		this.setBounds(0,0,800,800);
 		Log.writeT(Entry.INFO, "Ajout du WindowListener");
 		addWindowListener(new WindowListener(){
@@ -63,48 +63,48 @@ public final class MainFrame extends JFrame {
 			@Override
 			public void windowActivated(WindowEvent arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void windowClosed(WindowEvent arg0) {
-				
-				
+
+
 			}
 
 			@Override
 			public void windowClosing(WindowEvent arg0) {
 				Log.writeT(Entry.INFO, "Fermeture du jeu.");
 				Start.exit();
-				
+
 			}
 
 			@Override
 			public void windowDeactivated(WindowEvent arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void windowDeiconified(WindowEvent arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void windowIconified(WindowEvent arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void windowOpened(WindowEvent arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
-			
+
 		});
-		
+
 		this.setVisible(true);
 	}
 
@@ -116,8 +116,8 @@ public final class MainFrame extends JFrame {
 		Log.writeT(Entry.INFO, "Lancement des listeners");
 		listeners.start();
 		play();
-		
-		
+
+
 	}
 	/**
 	 * Methode lancant le jeu a proprement parler
@@ -197,7 +197,7 @@ public final class MainFrame extends JFrame {
 							essais = 5;
 							aBout = true;
 						}
-						
+
 					}
 					frame.dw.printText("Très bon choix! (En fait je dis ça à tout le monde mais bon...)");
 					int surnomI = frame.dw.printQuestion("Tu veux donner un surnom a ton pokemon?", "Oui", "Non", null);
@@ -223,29 +223,29 @@ public final class MainFrame extends JFrame {
 						Start.gererException(e, false);
 					}
 				}
-				
-				
-				
+
+
+
 				System.exit(0);
 			}
-			
+
 		});
 		Log.writeT(Entry.INFO, "Lancement du jeu.");
 		player.start();
-		
+
 	}
-	
+
 	public GameWindow getGameWindow(){
 		return gw;
 	}
-	
+
 	public DialogWindow getDialogWindow(){
 		return dw;
 	}
-	
+
 	public void setGameWindowPanel(JPanel panel){
 		gw.setPanel(panel);
 	}
-	
-	
+
+
 }
